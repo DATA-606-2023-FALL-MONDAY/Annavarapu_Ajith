@@ -1,10 +1,10 @@
 ## 1. Title and Author
 
-- Project Title
+- Energy Forecaster
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
-- Author Name 
-- Link to the author's GitHub profile
-- Link to the author's LinkedIn progile
+- Ajith Annavarapu 
+- GitHub : https://github.com/Ajith-oo7
+- LinkedIn : 
 - Link to your PowerPoint presentation file
 - Link to your YouTube video 
     
