@@ -10,11 +10,21 @@
     
 ## 2. Background
 
-Provide the background information about the chosen topic. 
-
-- What is it about? 
-- Why does it matter? 
+- What is the Project about?
+- Energy Predictor forecasts how changes in climatic conditions will affect a building's energy consumption by integrating the building's hourly energy consumption data with hourly weather data, enabling facility managers to make the optimal choices among 
+-1. Take no action! 
+-2. Invest in renovations to reduce operational costs in the future! 
+-3. Only invest money when necessary!
+- Why does it matter?
+- The objective of this project is to demonstrate the possibilities achievable through machine learning.  This illustration is relevant to asset management, engineering condition assessment, and decision-making concerning engineering capital and maintenance. Some potential applicable scenarios include:
+-1.Utilizing Pump SCADA (Supervisory Control and Data Acquisition) data, weather data, HVAC (Heating, Ventilation, and Air Conditioning) SCADA, and energy consumption data to develop optimized strategies for controlling building mechanical systems, aimed at reducing energy consumption.
+-2.Employing Air Blower SCADA data, influent sewage SCADA data (including flow rate and temperature), effluent SCADA data, and weather information to enhance the efficiency of variable-frequency drives (VFDs) for air blowers.
+-3.Enhancing predictive environmental assessment by considering various factors such as public, human, and engineering-related elements.
 - What are your research questions?
+- How would annual energy expenditure change under the following scenarios:
+-1.Average annual temperature increase by 0.2 degree, 0.4 degree, 0.8 degree, 1.2 degrees, 1.8 degrees, 3 degrees, 5 degrees, 10 degrees, and 15 degrees.
+-2.Average annual temperature decrease by 0.2 degree, 0.4 degree, 0.8 degree, 1.2 degrees, 1.8 degrees, 3 degrees, 5 degrees, 10 degrees, and 15 degrees.
+-3.Average annual temperature **increase only in spring and summer, and decrease in fall and winter by 0.2 degree, 0.4 degree, 0.8 degree, 1.2 degrees, 1.8 degrees, 3 degrees, 5 degrees, 10 degrees, and 15 degrees.
 
 ## 3. Data 
 
