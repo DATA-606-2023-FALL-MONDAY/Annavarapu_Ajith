@@ -4,7 +4,7 @@
 
 Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 
-**Author Name** Ajith Annavarapu
+**Author Name:** Ajith Annavarapu
 
 **GitHub:** https://github.com/Ajith-oo7
 
@@ -60,7 +60,7 @@ Weather Dataset : 331166 Rows and 10 Columns
 Building Dataset : 2016-2017
 Weather Dataset : 2016-2017
 
-**What does each row represent?**(a patient, a school, a crime, etc.):
+**What does each row represent?**
 Building Dataset : Each row in the dataset represents a distinct building, providing detailed information about its location, primary usage, total area, and resource utilization 
 
 Weather Dataset : Each row in the dataset represents a specific timestamp at a particular site (site_id) and provides detailed weather information for that moment. 
@@ -233,12 +233,57 @@ Building Dataset:
   - Definition: Other building energy ratings.
   - Potential values: D1
 
+Weather Dataset:
 
+- **timestamp**
+  - Data type: Date and time
+  - Definition: Date and time in the format MM-DD-YYYY hh:mm:ss. Local timezone.
+  - Potential values: 1/1/2016 0:00
 
+- **site_id**
+  - Data type: String
+  - Definition: Animal-code-name for the site.
+  - Potential values: Panther
 
+- **airTemperature**
+  - Data type: Float
+  - Definition: The temperature of the air in degrees Celsius (ºC).
+  - Potential values: 19.4
 
+- **cloudCoverage**
+  - Data type: Float
+  - Definition: Portion of the sky covered in clouds, in oktas.
+  - Potential values: 6
 
+- **dewTemperature**
+  - Data type: Float
+  - Definition: The dew point (the temperature to which a given parcel of air must be cooled at constant pressure and water vapor content in order for saturation to occur) in degrees Celsius (ºC).
+  - Potential values: 19.4
 
+- **precipDepth1HR**
+  - Data type: Float
+  - Definition: The depth of liquid precipitation that is measured over a one-hour accumulation period (mm).
+  - Potential values: 0
+
+- **precipDepth6HR**
+  - Data type: Float
+  - Definition: The depth of liquid precipitation that is measured over a six-hour accumulation period (mm).
+  - Potential values: 0
+
+- **seaLvlPressure**
+  - Data type: Float
+  - Definition: The air pressure relative to Mean Sea Level (MSL) (mbar or hPa).
+  - Potential values: 1019.4
+
+- **windDirection**
+  - Data type: Integer
+  - Definition: The angle, measured in a clockwise direction, between true north and the direction from which the wind is blowing (degrees).
+  - Potential values: 0
+
+- **windSpeed**
+  - Data type: Float
+  - Definition: The rate of horizontal travel of air past a fixed point (m/s).
+  - Potential values: 0
  
 **Which variable/column will be your target/label in your ML model?**
  - Air Temperature
