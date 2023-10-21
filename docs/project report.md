@@ -41,31 +41,30 @@ How would annual energy expenditure change under the following scenarios:
 
 **Describe the datasets you are using to answer your research questions:**
 
-The project involves the utilization of two distinct datasets: one pertains to building energy consumption, and the other comprises weather data.
+The project involves the utilization of 3 distinct datasets: one pertains to building energy consumption, and the other comprises weather data.
 
 For the energy consumption data in this project, the source is the Building Data Genome 2 (BDG2) dataset. BDG2 is an openly available dataset consisting of data from 3,053 energy meters across 1,636 buildings. This dataset spans a two-year timeframe and encompasses data from more than 30 academic buildings situated in Ottawa, Canada. From this dataset, a specific building is selected as the subject of the case study.
 
 The weather data for Ottawa is obtained from Statistics Canada, which serves as the national statistical office of Canada. Statistics Canada plays a crucial role in providing essential information on various aspects of Canada's environment, society, and economy, including weather data.
 
 **Data sources:**
--https://zenodo.org/record/3887306
+- https://www.researchgate.net/publication/341895125_The_Building_Data_Genome_Project_2_energy_meter_data_from_the_ASHRAE_Great_Energy_Predictor_III_competition
+ https://zenodo.org/record/3887306
 
 **Data size:**
-Building Dataset : 264 KB
-Weather Dataset : 18.2 MB
+- Building Dataset : 264 KB
+- Weather Dataset : 18.2 MB
+- Meter Dataset : 16.08 KB
 
 **Data shape:** 
 Building Dataset : 1636 Rows and 32 Columns
 Weather Dataset : 331166 Rows and 10 Columns
+Meter Dataset : 349757 Rows and 5 Columns
 
-**Time period:** 
-Building Dataset : 2016-2017
-Weather Dataset : 2016-2017
-
-**What does each row represent?**
-Building Dataset : Each row in the dataset represents a distinct building, providing detailed information about its location, primary usage, total area, and resource utilization 
-
-Weather Dataset : Each row in the dataset represents a specific timestamp at a particular site (site_id) and provides detailed weather information for that moment. 
+**Data Discription:**
+- Building Dataset: The building dataset is made up of 1,636 buildings and their associated information.
+- Meter Dataset: Meter dataset includes the measurement of 3,053 energy meters. The time range for the measurement is two full years (2016 & 2017). The measurement frequency is hourly.
+- Weather Dataset: weather dataset covers the weather information for the time span of 2 full years. The measurement frequency is hourly.
 
 **Data dictionary:**
 - **Columns name**
@@ -286,18 +285,34 @@ Weather Dataset:
   - Data type: Float
   - Definition: The rate of horizontal travel of air past a fixed point (m/s).
   - Potential values: 0
+
+Meter Dataset:
+- **sno**
+  - Data type: Integer
+  - Definition: Row count 
+  - Potential values: 0
+    
+- **index**
+  - Data type: Integer
+  - Definition: Index value for each row
+  - Potential values: 0
+    
+- **building_id**
+  - Data type: Integer
+  - Definition: Building identification number.
+  - Potential values: 789
+    
+- **timestamp**
+  - Data type: Integer
+  - Definition: Date and time in the format MM-DD-YYYY hh:mm:ss. Local timezone
+  - Potential values: 1/1/2016 12:00:00 AM
+    
+- **meter_reading**
+  - Data type: Integer
+  - Definition: representing the recorded consumption or usage of a utility
+  - Potential values: 516.43
  
 **Which variable/column will be your target/label in your ML model?**
- - Air Temperature
- - Cloud Coverage
- - Dew Point
- - Wind Direction
- - Wind Speed
- - Building Footprint
- - Hour
- - Weekday
- - Month
- - Sea Level Pressure
  - Meter Readings
 
 **Which variables/columns may be selected as features/predictors for your ML models?**
