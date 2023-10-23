@@ -318,4 +318,10 @@ Meter Dataset:
 **Which variables/columns may be selected as features/predictors for your ML models?**
  - Air Temperature
  - dew Temperature
+ - Sea Level Pressure
+ - Wind Direction
+ - Wind Speed
+ - Month
+ - Weekday
+ - Hour
 
