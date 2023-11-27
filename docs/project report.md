@@ -34,8 +34,18 @@ The objective of this project is to demonstrate the possibilities achievable thr
 
 How would annual energy expenditure change under the following scenarios:
 - Average annual temperature increase by 0.2 degree, 0.4 degree, 0.8 degree, 1.2 degrees, 1.8 degrees, 3 degrees, 5 degrees, 10 degrees, and 15 degrees.
+
+Increase in Annual Temperature: The model indicates that a rise in the average annual temperature will lead to reduced energy intensity and costs for the targeted building. This happens because as the annual temperature increases, the energy needed to maintain the building's warmth during winter decreases. Even though more energy is required to cool the building in hotter summers, overall energy consumption decreases with a rise in the annual average temperature. The model demonstrates 10 temperature scenarios. For example, a 0.4°C increase in the annual average temperature results in a $1.0k increase in annual energy costs.
+
 - Average annual temperature decrease by 0.2 degree, 0.4 degree, 0.8 degree, 1.2 degrees, 1.8 degrees, 3 degrees, 5 degrees, 10 degrees, and 15 degrees.
+
+Decrease in Annual Temperature: The model demonstrates that a decrease in the average annual temperature will lead to increased energy intensity and costs for the target building. This is primarily due to colder winter temperatures. Despite the cooler summer weather requiring less energy for cooling, the overall energy costs rise. The model presents 10 temperature scenarios. For instance, a 0.4°C decrease in the annual average temperature leads to a $1.2k increase in annual energy costs.
+
 - Average annual temperature **increase only in spring and summer, and decrease in fall and winter by 0.2 degree, 0.4 degree, 0.8 degree, 1.2 degrees, 1.8 degrees, 3 degrees, 5 degrees, 10 degrees, and 15 degrees.
+
+The modeled temperature conditions align more closely with reality, depicting hotter summers and colder winters. Colder winters result in higher energy consumption to maintain the building's temperature, while hotter summers increase the energy required for cooling. The model indicates that climate change and extreme weather can escalate building energy costs. It generates 10 different temperature, demonstrating, for instance, that a 0.4°C annual temperature variation can increase annual energy costs by $1.7k.
+  
+It's essential to note that the building in focus is an academic establishment housing offices for professors and classrooms for students. The building's energy consumption primarily stems from mechanical and electrical equipment. Should a model be created for industrial facilities with high energy usage for production, future variations in temperature could elevate energy costs. In such cases, a strong business case might justify upgrading existing equipment to curtail operational costs.
 
 ## 3. Data 
 
@@ -324,4 +334,51 @@ Meter Dataset:
  - Month
  - Weekday
  - Hour
+
+
+
+
+
+
+
+**4. Exploratory Data Analysis (EDA)
+ - Perform data exploration using Jupyter Notebook
+ - You would focus on the target variable and the selected features and drop all other columns.
+ - produce summary statistics of key variables
+ - Create visualizations (I recommend using Plotly Express)
+ - Find out if the data require cleansing:
+ - Missing values?
+ - Duplicate rows?
+ - Find out if the data require splitting, merging, pivoting, melting, etc.
+ - Find out if you need to bring in other data sources to augment your data.
+ - For example, population, socioeconomic data from Census may be helpful.
+ - For textual data, you will pre-process (normalize, remove stopwords, tokenize) them before you can analyze them in predictive analysis/machine learning.
+ - Make sure the resulting dataset need to be "tidy":
+ - each row represent one observation (ideally one unique entity/subject).
+ - each columm represents one unique property of that entity.
+
+
+##5. Model Training
+ - What models you will be using for predictive analytics?
+ - How will you train the models?
+ - Train vs test split (80/20, 70/30, etc.)
+ - Python packages to be used (scikit-learn, NLTK, spaCy, etc.)
+ - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
+ - How will you measure and compare the performance of the models?
+   
+##6. Application of the Trained Models
+ - Develop a web app for people to interact with your trained models. Potential tools for web app development:
+ - Streamlit (recommended for its simplicity and ease to learn)
+ - Dash
+ - Flask
+   
+##7. Conclusion
+ - Summarize your work and its potetial application 
+ - Point out the limitations of your work
+ - Lessons learned
+ - Talk about future research direction
+   
+##8. References
+ - List articles, blogs, and websites that you have referenced or used in your project.
+
 
