@@ -549,3 +549,15 @@ This project aims to investigate the impact of minor temperature fluctuations ca
 The project commenced with the examination of three datasets: Building Dataset, Meter Dataset, and Weather Dataset. We identified 1,635 buildings and 3,3053 energy meters, along with weather data encompassing parameters such as air temperature, wind speed, and wind direction for a two-year period (2016 and 2017).
 
 Following standard data science procedures, including data wrangling, data cleaning, and statistical analysis, we selected an academic building in Ottawa for data modeling, machine learning model selection, and final data prediction.
+
+## References:
+
+- Miller, C., Kathirgamanathan, A., Picchetti, B. et al. The Building Data Genome Project 2, energy meter data from the ASHRAE Great Energy Predictor III competition. Sci Data 7, 368 (2020). https://doi.org/10.1038/s41597-020-00712-x
+
+- Mel Keytingan M. Shapi, Nor Azuana Ramli, Lilik J. Awalin, Energy consumption prediction by using machine learning for smart building: Case study in Malaysia, Developments in the Built Environment, Volume 5, 2021, 100037, ISSN 2666-1659, https://doi.org/10.1016/j.dibe.2020.100037.
+
+- Lin, X.; Yu, H.; Wang, M.; Li, C.; Wang, Z.; Tang, Y. Electricity Consumption Forecast of High-Rise Office Buildings Based on the Long Short-Term Memory Method. Energies 2021, 14, 4785. https://doi.org/10.3390/en14164785 
+
+- El Khantach, Abdelkarim & Hamlich, Mohamed & Belbounaguia, Nour Eddine. (2019). Short-term load forecasting using machine learning and periodicity decomposition. AIMS Energy. 7. 382-394. 10.3934/energy.2019.3.382. 
+
+- González Briones, Alfonso & Hernández, Guillermo & Pinto, Tiago & Vale, Zita & Corchado Rodríguez, Juan. (2019). A Review of the Main Machine Learning Methods for Predicting Residential Energy Consumption. 1-6. 10.1109/EEM.2019.8916406.
