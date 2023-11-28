@@ -360,9 +360,22 @@ Meter Dataset:
 
 ##5. Model Training
  - What models you will be using for predictive analytics?
+ - Linear Regression
+ - Random Forest Model
+ - LightGBM Model
+ - 
  - How will you train the models?
  - Train vs test split (80/20, 70/30, etc.)
+ - 
  - Python packages to be used (scikit-learn, NLTK, spaCy, etc.)
+ - numpy
+ - Pandas
+ - matplotlib - mpl,pylab,mpatches,gridspec,mpatches
+ - seaborn
+ - datetime-datetime,timedelta
+ - windrose-windroseAxes
+ - sklearn-LabelEncoder,train_test_split,tree,metrics
+ - 
  - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
  - How will you measure and compare the performance of the models?
    
