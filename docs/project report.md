@@ -442,15 +442,40 @@ Other common wind directions in Ottawa are from the southwest (SW) and the north
 
 ## EDA:
 
+### Correlation:
+
+![image](https://github.com/DATA-606-2023-FALL-MONDAY/Annavarapu_Ajith/assets/51732096/6401b865-9ece-4cfe-85e2-1d370864e7d6)
+
+Dew temperature and air temperature appear to be highly related.
+
+![image](https://github.com/DATA-606-2023-FALL-MONDAY/Annavarapu_Ajith/assets/51732096/29ff523d-cde3-45d7-9650-c0069561b19f)
+
+About 3% of the data for the air temperature and dew temperature is missing. According to my knowledge from Google and my expertise in chemical engineering, the dew point is the temperature at which the air can precisely retain the moisture content. At any given temperature, the atmosphere has a limited capacity to store water vapour when it rains. Consequently, room temperature and the dew point are same.
+
+
+### Temporal Analysis:
+
+### Buildings Dataset:
+
 All buildings are educational buildings and they are all from Ottawa, location and priUsage columns will be dropped.
 
 ![image](https://github.com/DATA-606-2023-FALL-MONDAY/Annavarapu_Ajith/assets/51732096/8624f080-740b-4691-addd-c3126b248160)
 
 In all, we have five academic buildings and fifteen college classrooms. The average total surface area, 30,066 sqm, is higher in the college classroom. The academic building is 9,714 square metres smaller. Since they are distinct building types, their patterns of energy use may also differ. When we get all the data, including the weather and energy consumption information, we will review them later. Due to the possibility of imbalanced data, the outcome will show whether we should split the data into different models.
 
-### Correlation:
-Dew temperature and air temperature appear to be highly related.
+### Weather Dataset:
 
+![image](https://github.com/DATA-606-2023-FALL-MONDAY/Annavarapu_Ajith/assets/51732096/e408b046-e222-43c7-90c8-8343ca55200a)
+
+The temporal distribution of air temperature, sea level pressure, wind speed, and dew temperature between 2016 and 2017. The x-axis of the chart shows the time period, and the y-axis shows the value of each variable.
+The chart shows that the air temperature and dew temperature generally follow a seasonal pattern, with higher temperatures in the summer and lower temperatures in the winter. The sea level pressure and wind speed also show some seasonal variation, but it is less pronounced.
+
+### Meters Dataset:
+
+![image](https://github.com/DATA-606-2023-FALL-MONDAY/Annavarapu_Ajith/assets/51732096/cfe9d082-3655-4683-9070-9b5255cca38a)
+
+The average energy consumption over each month in the dataset, in kilowatt-hours (kWh). The x-axis of the chart shows the month of the year, and the y-axis shows the  average energy consumption.
+The chart shows that the  average energy consumption follow a seasonal pattern, with higher energy consumption in the winter and lower temperatures in the summer. 
 
 
 ### Feature Engineering:
