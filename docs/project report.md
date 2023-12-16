@@ -10,9 +10,9 @@ Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 
 **LinkedIn:** https://www.linkedin.com/in/ajith-anna-11369b291/ 
 
-**PowerPoint presentation file:**
+**PowerPoint presentation file:** https://drive.google.com/file/d/183mtYWr-BrrrRAcARWs7jU_Y9SUdtZoy/view?usp=drive_link
 
-**Link to your YouTube video:** https://drive.google.com/file/d/183mtYWr-BrrrRAcARWs7jU_Y9SUdtZoy/view?usp=drive_link
+**Link to your YouTube video:** https://youtu.be/5m1Mvc64s44
     
 ## 2. Background
 
