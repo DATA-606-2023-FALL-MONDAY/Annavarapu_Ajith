@@ -6,6 +6,8 @@ Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 
 **Author Name:** Ajith Annavarapu
 
+**Semister:** Final Semister
+
 **GitHub:** https://github.com/Ajith-oo7
 
 **LinkedIn:** https://www.linkedin.com/in/ajith-anna-11369b291/ 
